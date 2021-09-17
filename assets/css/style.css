@@ -50,6 +50,7 @@
     font-size: 16px;
 }
 
+/* added <figure class="hero> and added an alt="" function to describe the working photo in this section. */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +76,7 @@
     margin-left: 20px;
 }
 
+/* Created <aside class="benefits"> and removed redundant benefit-lead, benefit-brand, and benefit-cost headers. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +88,7 @@
     background-color: #2589bd;
 }
 
+/* removed redundant section-aside: h1 and section-aside: h2 subheaders, as the only section-aside header that required special adjustments was section-aside: h3, which was left in context. */
 .section-aside {
     margin-bottom: 32px;
     color: #ffffff;
@@ -128,7 +131,6 @@
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    
 }
 
 .footer h2 {
